@@ -1,0 +1,445 @@
+@media screen and (max-width: 425px){
+
+    /*NAVIGATION AND SECTION 1*/
+    
+    nav{
+        width: 350vw;
+        height: 20vh;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.623), transparent);
+        z-index:5;
+    }
+    
+    #logo{
+        width: 150px;
+        position: relative;
+        left:32px;
+        top:25px;
+        z-index: 5;
+    }
+    
+    .logo{
+        position:relative;
+    }
+    
+    .navright{
+        background-color: transparent;
+        width: 25vw;
+        height: 6vh;
+        position: fixed;
+        left: 85%;
+        bottom:97%;
+        z-index:5;
+    }
+    
+    #lupa{
+        width: 36px;
+        margin-right: 3px;
+    }
+    
+    #treslineas{
+        width: 36px;
+    }
+    
+    .section1{
+        width: 175vw;
+        position: relative;
+        bottom:20vh;        
+    }
+
+    .carrusel_imagen{
+        width: 360vw;
+        height: 200vh;
+
+    }
+    
+    #carouselExampleIndicators{
+        position: relative;
+        bottom:55vh;
+        width: 360vw;
+    }
+    
+    .carrusel_text{
+        font-size: 4.5em;
+        color: white;
+        position: relative;
+        top:135vh;
+        left:10vw;
+        text-shadow: 5px 5px 10px gray;
+    }
+    
+    .carrusel_text_1{
+        font-size: 4.2em;
+        color: white;
+        position: relative;
+        top:95vh;
+        left:10vw;
+        text-shadow: 5px 5px 10px gray;
+    }
+    
+    /*SECTION 2 - Fancy Moving Things*/
+    
+    .section2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width:180vw;
+        height: 100vh;
+        position: relative;
+        left:80vw;
+        bottom: 50vh;
+    }
+    
+      .section2_container {
+        perspective: 280px;
+        width: 30vw;
+        height: 10vh;
+       }
+    
+      .transformed1 {
+        transform: rotateY(40deg);
+        font-size: 5em;
+        color:black;
+        font-weight: 1000;
+        text-align: right;
+      }
+    
+      .transformed2 {
+        transform: rotateY(-20deg);
+        font-size: 5em;
+        color:black;
+        font-weight: 1000;
+        text-align: left;
+      }
+    
+      .transformed3 {
+        transform: rotateY(-20deg);
+        font-size: 5em;
+        color:black;
+        font-weight: 1000;
+        text-align: left;
+      }
+    
+      .transformed4 {
+        transform: rotateY(20deg);
+        font-size: 5em;
+        color:black;
+        font-weight: 1000;
+        text-align: right;
+      }
+    
+      .transformed5 {
+        transform: rotateY(-40deg);
+        font-size: 5em;
+        color:black;
+        font-weight: 1000;
+        text-align: left;
+      }
+    
+      .transformed1:hover{
+          transform: rotateY(0deg);
+      }
+    
+      .transformed2:hover{
+        transform: rotateY(0deg);
+    }
+    
+    .transformed3:hover{
+        transform: rotateY(0deg);
+    }
+    
+    .transformed4:hover{
+      transform: rotateY(0deg);
+    }
+    
+    .transformed5:hover{
+        transform: rotateY(0deg);
+      }
+    
+    .section2_p1{
+        position:relative;
+        bottom:4vh; 
+        display:none;  
+        font-size: 1.5em;
+        width: 80vw;
+    }
+    
+    .section2_p2{
+        position:relative;
+        bottom:4vh;   
+        display:none; 
+        font-size: 1.5em;
+        width: 80vw;
+    }
+    
+    .section2_p3{
+        position:relative;
+        bottom:4vh;
+        display:none; 
+        font-size: 1.5em;
+        width: 80vw;
+    }
+    
+    .section2_p4{
+        position:relative;
+        bottom:4vh;
+        display:none; 
+        font-size: 1.5em;
+        width: 80vw;
+    }
+    
+    .section2_p5{
+        position:relative;
+        bottom:4vh;
+        display:none; 
+        font-size: 1.5em;
+        width: 80vw;
+    }
+    
+    .transformed1:hover + .section2_p1{
+        display:block;
+    }
+    
+    .transformed2:hover + .section2_p2{
+        display:block;
+    }
+    
+    .transformed3:hover + .section2_p3{
+        display:block;
+    }
+    
+    .transformed4:hover + .section2_p4{
+        display:block;
+    }
+    
+    .transformed5:hover + .section2_p5{
+        display:block;
+    }
+    
+    /*SECTION 3 - Explore our work */
+    .section3{
+        width: 360vw;
+        background-image: url(https://www.unstudio.com/image/2021/8/17/norm_li_southbank_melbourne_park.jpg%28mediaclass-background-xl.07f7adb8a95599dcb70557da25aa6351c3fd0c58%29.jpg);
+        height: 150vh;  
+    }
+
+    a:link{
+        text-decoration: none;
+        color:black;
+    }
+    .section3_text{
+        text-decoration: none;
+        width:200vw;
+        font-size: 4em;
+        text-shadow: 5px 5px 10px gray;
+        color:white;
+        position:relative;
+        top:50vh;
+        left:10vw;
+    }
+    
+    .section3_span{
+        background-color: white;
+        color:black;
+        font-size: 2em;
+        padding:15px;
+        border-left: 3px solid black;
+        position:relative;
+        left:10vw;
+        top:50vh;
+    }
+    
+    
+    /*SECTION 4 - NEWS */
+    
+    .section4{
+        width: 350vw;
+        height: 140vh;
+    }
+
+    .contenedor{
+        display:grid;
+        width: 98vw;
+        height: 200vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+        top:15vh;
+        left:8.5vw;
+        gap:6vw
+        }
+    
+        .grid1_imagen1{
+            width:460px;
+        }
+    
+        .grid1_imagen2{
+            width:460px;
+        }
+    
+        .grid1_imagen3{
+            width:460px;
+        }
+        .section4_h6{
+            font-size: 1.8em;
+            position: relative;
+            color:black;
+        }
+    
+        .contenedor_link:link{
+            text-decoration: none;
+            color:black;
+        }
+    
+        .section4_h5{
+            font-size: 2em;
+            position: relative;
+            color:black
+        }
+    
+        .grid1:hover{
+            transform: scale(1.01);
+        }
+    
+    /*SECTION 5 - VIDEO */
+    .section5{
+        width: 350vw;
+        height: 110vh;
+        position: relative;
+        bottom:65vh;
+    }
+    
+    .section5_video{
+        width: 200vw;
+        height: 250vw;
+        position:relative;  
+        left:10vw;
+        bottom: 40vh;
+    }
+    
+    .section5_text{
+        width: 50%;
+        font-size: 3.5em;
+        position:relative;
+        left: 60vw;
+        top:-125vh;
+        color:white;
+        text-shadow: 5px 5px 10px gray;
+    }
+    
+    .section5_link:link{
+        text-decoration: none;
+    }
+    
+    .section5_span{
+        background-color: white;
+        width: 50%;
+        font-size: 2.5em;
+        padding:15px;
+        border-left: 3px solid black;
+        position: relative;
+        left: 60vw;
+        top:-120vh;
+        color:black;
+    }
+    
+    /*SECTION 6 - IG POSTS*/
+    
+    .section6{
+        height: 250vh;
+        position: relative;
+        bottom: 60vh;
+    }
+    .section6_contenedor{
+        display:grid;
+        width: 100vw;
+        height: 250vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap:15px;
+        color:black;
+        position: relative;
+        left:2.5vw;
+    }
+    
+    .section6_grid:hover{
+        transform: scale(1.01);
+    }
+    
+    .section6_hashtags{
+        font-size: 1.2em;
+    }
+    
+    .section6_link:link{
+        text-decoration: none;
+        color:black;
+    }
+    
+    .section6_grid_image_instagram{
+        width:14px;
+    }
+    
+    /*SECTION 7 - About Manifesto*/
+    
+    .section7{
+        height: 170vh;
+        width: 350vw;
+        position:relative;
+        top:-25%;
+    }
+
+    
+    .section7_about_link:link{
+        text-decoration: none;  
+    }
+    
+    .section7_h1{
+        font-size: 3em;
+        left:20px;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    .section7_p{
+        width: 50%;
+        font-size: 1.8em;
+        font-family: 'Shippori Antique B1', sans-serif;
+        background-color: white;
+    }
+    
+    .section7_video{
+        position:relative;
+        bottom:120vh;
+        left:190vw;
+    }
+    
+    /*FOOTER*/
+    .contenedor_footer{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:40px;
+        width:350vw;
+        height:105px;
+        position: relative;
+        top: -30%
+    }
+    
+    .footer_grid1{
+        height: 85px;
+    }
+    
+    .footer_grid_image{
+        width:85px;
+    }
+    .footer_grid1_address{
+        position:relative;
+        left:100px;
+        bottom: 70px;
+        font-size: 1.2em;
+    }
+    
+    #pan{
+        position:relative;
+        right:18vw;
+    }
+    
+    }
+        

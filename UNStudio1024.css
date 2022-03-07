@@ -1,0 +1,436 @@
+@media screen and (max-width: 1024px){
+
+/*NAVIGATION AND SECTION 1*/
+
+nav{
+    width: 99vw;
+    height: 20vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.623), transparent);
+    z-index:5;
+}
+
+#logo{
+    width: 150px;
+    position: relative;
+    left:32px;
+    top:25px;
+    z-index: 5;
+}
+
+.logo{
+    position:relative;
+}
+
+.navright{
+    background-color: transparent;
+    width: 10vw;
+    height: 6vh;
+    position: fixed;
+    left: 83%;
+    bottom:95%;
+    z-index:5;
+}
+
+#lupa{
+    width: 36px;
+    margin-right: 3px;
+}
+
+#treslineas{
+    width: 36px;
+}
+
+.section1{
+    width: 175vw;
+    
+}
+.carrusel_imagen{
+    width: 175vw;
+    height: 120vh;
+}
+
+#carouselExampleIndicators{
+    position: relative;
+    bottom:35vh;
+}
+
+.carrusel_text{
+    font-size: 3.5em;
+    color: white;
+    position: relative;
+    top:55vh;
+    left:1vw;
+    text-shadow: 5px 5px 10px gray;
+}
+
+.carrusel_text_1{
+    font-size: 3.2em;
+    color: white;
+    position: relative;
+    top:55vh;
+    left:1vw;
+    text-shadow: 5px 5px 10px gray;
+}
+
+/*SECTION 2 - Fancy Moving Things*/
+
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width:60vw;
+    height: 50vh;
+    position: relative;
+    left:60vw;
+    bottom: 15vh;
+}
+
+  .section2_container {
+    perspective: 280px;
+    width: 30vw;
+    height: 10vh;
+   }
+
+  .transformed1 {
+    transform: rotateY(40deg);
+    font-size: 4em;
+    color:black;
+    font-weight: 1000;
+    text-align: right;
+  }
+
+  .transformed2 {
+    transform: rotateY(-40deg);
+    font-size: 4em;
+    color:black;
+    font-weight: 1000;
+    text-align: left;
+  }
+
+  .transformed3 {
+    transform: rotateY(-40deg);
+    font-size: 4em;
+    color:black;
+    font-weight: 1000;
+    text-align: left;
+  }
+
+  .transformed4 {
+    transform: rotateY(40deg);
+    font-size: 4em;
+    color:black;
+    font-weight: 1000;
+    text-align: right;
+  }
+
+  .transformed5 {
+    transform: rotateY(-40deg);
+    font-size: 4em;
+    color:black;
+    font-weight: 1000;
+    text-align: left;
+  }
+
+  .transformed1:hover{
+      transform: rotateY(0deg);
+  }
+
+  .transformed2:hover{
+    transform: rotateY(0deg);
+}
+
+.transformed3:hover{
+    transform: rotateY(0deg);
+}
+
+.transformed4:hover{
+  transform: rotateY(0deg);
+}
+
+.transformed5:hover{
+    transform: rotateY(0deg);
+  }
+
+.section2_p1{
+    position:relative;
+    bottom:4vh; 
+    display:none;  
+    font-size: 1.2em;
+}
+
+.section2_p2{
+    position:relative;
+    bottom:4vh;   
+    display:none; 
+    font-size: 1.2em;
+}
+
+.section2_p3{
+    position:relative;
+    bottom:4vh;
+    display:none; 
+    font-size: 1.2em;
+}
+
+.section2_p4{
+    position:relative;
+    bottom:4vh;
+    display:none; 
+    font-size: 1.2em;
+}
+
+.section2_p5{
+    position:relative;
+    bottom:4vh;
+    display:none; 
+    font-size: 1.2em;
+}
+
+.transformed1:hover + .section2_p1{
+    display:block;
+}
+
+.transformed2:hover + .section2_p2{
+    display:block;
+}
+
+.transformed3:hover + .section2_p3{
+    display:block;
+}
+
+.transformed4:hover + .section2_p4{
+    display:block;
+}
+
+.transformed5:hover + .section2_p5{
+    display:block;
+}
+
+/*SECTION 3 - Explore our work */
+.section3{
+    width: 175vw;
+    background-image: url(https://www.unstudio.com/image/2021/8/17/norm_li_southbank_melbourne_park.jpg%28mediaclass-background-xl.07f7adb8a95599dcb70557da25aa6351c3fd0c58%29.jpg);
+    height: 130vh;
+    
+}
+a:link{
+    text-decoration: none;
+    color:black;
+}
+.section3_text{
+    text-decoration: none;
+    width:80vw;
+    font-size: 4em;
+    text-shadow: 5px 5px 10px gray;
+    color:white;
+    position:relative;
+    top:50vh;
+    left:10vw;
+}
+
+.section3_span{
+    background-color: white;
+    color:black;
+    font-size: 2em;
+    padding:15px;
+    border-left: 3px solid black;
+    position:relative;
+    left:10vw;
+    top:50vh;
+}
+
+
+/*SECTION 4 - NEWS */
+
+.sction4{
+    width: 98vw;
+}
+.contenedor{
+    display:grid;
+    width: 98vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    top:15vh;
+    left:2.5vw;
+    gap:2vw
+    }
+
+    .grid1_imagen1{
+        width:560px;
+    }
+
+    .grid1_imagen2{
+        width:560px;
+    }
+
+    .grid1_imagen3{
+        width:560px;
+    }
+    .section4_h6{
+        font-size: 1.1em;
+        position: relative;
+        color:black;
+    }
+
+    .contenedor_link:link{
+        text-decoration: none;
+        color:black;
+    }
+
+    .section4_h5{
+        font-size: 2em;
+        position: relative;
+        color:black
+    }
+
+    .grid1:hover{
+        transform: scale(1.01);
+    }
+
+/*SECTION 5 - VIDEO */
+.section5{
+    width: 198vw;
+    height: 110vh;
+}
+
+.section5_video{
+    width: 10vw;
+    height: 85vw;
+    position:relative;  
+    left:15vw;
+}
+
+.section5_text{
+    width: 50%;
+    font-size: 4em;
+    position:relative;
+    left: 20vw;
+    top:-70vh;
+    color:white;
+    text-shadow: 5px 5px 10px gray;
+}
+
+.section5_link:link{
+    text-decoration: none;
+}
+
+.section5_span{
+    background-color: white;
+    width: 50%;
+    font-size: 2.5em;
+    padding:15px;
+    border-left: 3px solid black;
+    position: relative;
+    left: 20vw;
+    top:-60vh;
+    color:black;
+}
+
+/*SECTION 6 - IG POSTS*/
+
+.section6{
+    height: 221vh;
+}
+.section6_contenedor{
+    display:grid;
+    width: 170vw;
+    height: 250vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:50px;
+    color:black;
+    position: relative;
+    left:1.5vw;
+
+}
+
+.section6_grid:hover{
+    transform: scale(1.01);
+}
+
+.section6_hashtags{
+    font-size: 1.2em;
+}
+
+.section6_link:link{
+    text-decoration: none;
+    color:black;
+}
+
+.section6_grid_image_instagram{
+    width:14px;
+}
+
+/*SECTION 7 - About Manifesto*/
+
+.section7{
+    height: 100vh;
+    width: 160vw;
+    position: relative;
+    top:40vh;
+}
+.section7_about{
+    background-color: black;
+    width: 70px;
+    padding:10px;
+    color:white;
+    text-align: center;
+
+}
+
+.section7_about_link:link{
+    text-decoration: none;  
+}
+
+.section7_h1{
+    font-size: 3em;
+    left:20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.section7_p{
+    width: 40%;
+    font-size: 1.2em;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.section7_video{
+    position:relative;
+    bottom:50vh;
+    left:80vw;
+}
+
+/*FOOTER*/
+.contenedor_footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:50px;
+    width:160vw;
+    height:85px;
+    position: relative;
+    top:45vh;
+}
+
+.footer_grid1{
+    height: 85px;
+}
+
+.footer_grid_image{
+    width:85px;
+}
+.footer_grid1_address{
+    position:relative;
+    left:100px;
+    bottom: 70px;
+    font-size: 1.2em;
+}
+
+#pan{
+    position:relative;
+    right:2.3vw;
+}
+
+}
+    
